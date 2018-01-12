@@ -8,7 +8,12 @@ title: 微信公众平台
 
 <p class="tip">微信公众平台是运营者通过公众号为微信用户提供资讯和服务的平台。</p>
 
+[公众号常见问题](http://kf.qq.com/product/weixinmp.html#hid=97)
+
+[公众号入门指引](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1472017492_58YV5)
+
 ## 公众号分类
+
 
 ![公众号类型](./images/公众号类型.png)
 
