@@ -6,7 +6,8 @@ self.$config = {
       {title: '微信网页开发', path: '/page'},
       {title: 'JS-SDK列表', path: '/jssdklist'},
       {title: 'access_token说明', path: '/accesstoken'},
-      {title: '附录', path: '/appendix'}
+      {title: '附录', path: '/appendix'},
+      {title: 'ngrok使用', path: '/ngrok'}
     ],
     tocVisibleDepth: 2
   }
