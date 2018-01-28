@@ -37,17 +37,90 @@ jsapi_ticket=sM4AOVdWfPE4DxkXGEs8VMCPGGVi4C3VM0P37wVUCFvkVAy_90u5h9nbSlYy3-Sl-Hh
 
 ```
 <p class='tip'>步骤2. 对string1进行sha1签名，得到signature：</p>
+
 ```text
 0f9de62fce790f9a083d5c99e95740ceb90c27ed
 ```
-注意事项
 
-1. 签名用的noncestr和timestamp必须与wx.config中的nonceStr和timestamp相同。
+### 注意事项
 
-2. 签名用的url必须是调用JS接口页面的完整URL。
+<p class="danger">1. 签名用的noncestr和timestamp必须与wx.config中的nonceStr和timestamp相同。</p>
 
-3. 出于安全考虑，开发者必须在服务器端实现签名的逻辑。
+<p class="danger">2. 签名用的url必须是调用JS接口页面的完整URL。</p>
 
+<p class="danger">3. 出于安全考虑，开发者必须在服务器端实现签名的逻辑。</p>
+
+
+## JS-SDK接口列表
+onMenuShareTimeline
+
+onMenuShareAppMessage
+
+onMenuShareQQ
+
+onMenuShareWeibo
+
+onMenuShareQZone
+
+startRecord
+
+stopRecord
+
+onVoiceRecordEnd
+
+playVoice
+
+pauseVoice
+
+stopVoice
+
+onVoicePlayEnd
+
+uploadVoice
+
+downloadVoice
+
+chooseImage
+
+previewImage
+
+uploadImage
+
+downloadImage
+
+translateVoice
+
+getNetworkType
+
+openLocation
+
+getLocation
+
+hideOptionMenu
+
+showOptionMenu
+
+hideMenuItems
+
+showMenuItems
+
+hideAllNonBaseMenuItem
+
+showAllNonBaseMenuItem
+
+closeWindow
+
+scanQRCode
+
+chooseWXPay
+
+openProductSpecificView
+
+addCard
+
+chooseCard
+
+openCard
 
 ## 常见错误及解决方法
 
